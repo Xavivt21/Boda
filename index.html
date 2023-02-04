@@ -256,17 +256,119 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<span>Our Memories</span>
+						<span>Si us plau envieu-nos el formulario abns del 21 juny</span>
 						<h2>Confrima la teva assistència</h2>
-						<p>xxx.</p>
-						<button type="submit" class="btn btn-default btn-block">Enviar</button>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<h3>Confirma la teva assistència</h3>
+
+								<form id="rsvp-form" class="rsvp-form"
+									action="https://script.google.com/macros/s/AKfycbxCCMEj_6RNVce2ptfVPRBB9z5OSPRnSCqXAiNSxhHc036TxB3S-qABtqqM4JlWJ4Zr/exec"
+									method="POST">
+
+
+									<!-- <div class="col-md-6 col-sm-6"> -->
+									<div class="col-md-12">
+										<div class="form-input-group">
+											<i class="fa fa-user"></i><input name="name" class=""
+												placeholder="Nom i Cognom" required>
+										</div>
+									</div>
+									<br>
+									<div class="col-md-12">
+										<div class="form-checkbox">
+											<input class="input-checkbox100" id="ckb1" type="checkbox" name="parella"
+												onchange="otherSelect()">
+											<label class="label-checkbox100" for="ckb1">
+												Vens amb parella?
+											</label>
+										</div>
+									</div>
+									<br>
+									<div class="col-md-12" id="parellacheck" style="display: none;">
+										<div class="form-input-group">
+											<i class="fa fa-user-plus"></i><input type="text" name="nomParella" class=""
+												min="0" max="4" id="parellacheck"
+												placeholder="Nom i cognoms de la parella">
+										</div>
+									</div>
+									<div class="col-md-12">
+										<div class="form-checkbox">
+											<input class="input-checkbox100" id="ckbDieta" type="checkbox" name="dieta"
+												onchange="otherSelect()">
+											<label class="label-checkbox100" for="ckbDieta">
+												Necessites un menú especial o tens alguna alèrgia o intolerància?
+											</label>
+										</div>
+									</div>
+
+									<div class="col-md-12" id="dietacheck" style="display: none;">
+										<div class="form-input-group">
+											<i class="fa fa-cutlery"></i><input type="text" name="dietaText" class=""
+												min="0" max="4" id="dietacheck"
+												placeholder="Explica'ns-ho per adaptar-te el menú">
+										</div>
+									</div>
+									<div class="col-md-12">
+
+										<p class="text-form">Tindrem un servei d'autocar per anar de l'església al
+											convit i per tornar a Barcelona al final de la nit. L'autocar d'anada
+											sortirà de Barcelona al finalitzar la cerimònia i el de tornada sortirà de
+											l'Ametlla quan acabi el convit, aproximadament a les 00 h. Si creieu que és
+											massa tard i us agradaria que hi hagués un altre horari, si us plau
+											feu-nos-ho saber per intentar organitzar-ho si sou molts. Us anirem donant
+											més informació a mesura que s'acosti la data.</p>
+
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<div class="form-checkbox">
+											<input class="input-checkbox100" id="ckbautobus1" type="checkbox"
+												name="busAnada">
+											<label class="label-checkbox100" for="ckbautobus1">
+												Autocar d'anada
+											</label>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6">
+										<div class="form-checkbox">
+											<input class="input-checkbox100" id="ckbautobus2" type="checkbox"
+												name="busTornada">
+											<label class="label-checkbox100" for="ckbautobus2">
+												Autocar de tornada
+											</label>
+										</div>
+									</div>
+									<div class="col-md-12" id="alert-wrapper"></div>
+
+									<button type="submit" class="btn btn-default btn-block">Enviar</button>
+
+								</form>
+								<script type="text/javascript">
+									function otherSelect() {
+										console.log("change selecction")
+										var parella = document.getElementById("parellacheck");
+										var ckb1 = document.getElementById("ckb1").checked;
+										if (ckb1 == true) { parella.style.display = "inherit"; }
+										else { parella.style.display = "none"; }
+										var dieta = document.getElementById("dietacheck");
+										var ckbDieta = document.getElementById("ckbDieta").checked;
+										if (ckbDieta == true) { dieta.style.display = "inherit"; }
+										else { dieta.style.display = "none"; }
+									}
+								</script>
+
+							</div>
+						</div>
+
 					</div>
 				</div>
 
 			</div>
 		</div>
 
+		<div class="container">
 
+		</div>
 
 
 		<div id="fh5co-testimonial">
@@ -274,7 +376,6 @@
 				<div class="row">
 					<div class="row animate-box">
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-
 							<h2>El millor regal ets tu</h2>
 							<p>La teva assistència serà el millor regal però si voleu tenir un detall amb nosaltres
 								deixem aquí el nostre número de compte</p>
@@ -373,6 +474,8 @@
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+
+	<script src="js/scripts.js"></script>
 
 	<script>
 		var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
