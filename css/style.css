@@ -48,9 +48,9 @@ body {
 
 a {
   color: #3C6255;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 a:hover, a:active, a:focus {
   color: #3C6255;
@@ -683,9 +683,9 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   content: "";
   z-index: 80;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -1352,9 +1352,9 @@ form label {
   color: #fff;
   font-size: 16px !important;
   width: 100%;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 #fh5co-started .form-control::-webkit-input-placeholder {
   color: #fff;
@@ -1439,9 +1439,9 @@ form label {
   -ms-transform: translateX(270px);
   -o-transform: translateX(270px);
   transform: translateX(270px);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 .offcanvas #fh5co-offcanvas {
   -moz-transform: translateX(0px);
@@ -1489,9 +1489,9 @@ form label {
   content: "\e921";
   font-size: 20px;
   color: rgba(255, 255, 255, 0.2);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 #fh5co-offcanvas ul li.offcanvas-has-dropdown.active a:after {
   -webkit-transform: rotate(-180deg);
@@ -1656,9 +1656,9 @@ form label {
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   border-radius: 30px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
   padding: 8px 20px;
 }
 .btn.btn-md {
