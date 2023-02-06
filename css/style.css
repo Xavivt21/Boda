@@ -24,6 +24,10 @@ body {
   background: #fff;
 }
 
+input {
+  width: 95%;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -2133,7 +2137,6 @@ Alinear formulari
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  border: solid 1px #E6E9EA;
 }
 
 .rsvp .rsvp-form .form-input-group input {
