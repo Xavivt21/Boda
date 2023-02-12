@@ -115,19 +115,14 @@ figure {
   z-index: 1001;
 }
 
+
+
 @media screen and (max-width: 768px) {
   .fh5co-nav {
     padding: 20px 0;
   }
 }
 
-.fh5co-nav #fh5co-logo {
-  font-size: 40px;
-  margin: 0;
-  padding: 0;
-  line-height: 40px;
-  font-family: "Sacramento", Arial, serif;
-}
 
 .fh5co-nav a {
   padding: 5px 10px;
@@ -282,68 +277,6 @@ figure {
   width: 100%;
   float: left;
   position: relative;
-}
-
-.fh5co-video {
-  height: 450px;
-  overflow: hidden;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  border-radius: 7px;
-}
-
-.fh5co-video a {
-  z-index: 1001;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -45px;
-  margin-left: -45px;
-  width: 90px;
-  height: 90px;
-  display: table;
-  text-align: center;
-  background: #fff;
-  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.fh5co-video a i {
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 40px;
-}
-
-.fh5co-video .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.fh5co-video:hover .overlay {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.fh5co-video:hover a {
-  position: relative;
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
 }
 
 .fh5co-cover {
@@ -1341,91 +1274,6 @@ form label {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#fh5co-testimonial .wrap-testimony {
-  position: relative;
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide {
-  text-align: center;
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide span {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 700;
-  display: block;
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #F14E95;
-  font-weight: 300;
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide figure {
-  margin-bottom: 10px;
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-  width: 100px;
-  height: 100px;
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide figure img {
-  width: 100px;
-  height: 100px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
-  border: none;
-  margin: 30px auto;
-  width: 50%;
-  position: relative;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
-}
-
-@media screen and (max-width: 992px) {
-  #fh5co-testimonial .wrap-testimony .testimony-slide blockquote {
-    width: 100%;
-  }
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide blockquote p {
-  font-style: italic;
-  color: #8f989f;
-  font-size: 20px;
-  line-height: 1.6em;
-}
-
-#fh5co-testimonial .wrap-testimony .testimony-slide.active {
-  display: block;
-}
-
-#fh5co-testimonial .wrap-testimony .arrow-thumb {
-  position: absolute;
-  top: 40%;
-  display: block;
-  width: 100%;
-}
-
-#fh5co-testimonial .wrap-testimony .arrow-thumb a {
-  font-size: 32px;
-  color: #dadada;
-}
-
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:hover,
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:focus,
-#fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
-  text-decoration: none;
-}
 
 .feature-left {
   float: left;
