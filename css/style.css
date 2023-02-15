@@ -105,6 +105,14 @@ figure {
   background: #F14E95;
 }
 
+.btn-confirmar {
+  text-align: right;
+  padding: 10%;
+  margin: 10px;
+}
+
+
+
 .fh5co-nav {
   position: absolute;
   top: 0;
@@ -116,12 +124,13 @@ figure {
 }
 
 
-
+/*
 @media screen and (max-width: 768px) {
   .fh5co-nav {
     padding: 20px 0;
   }
 }
+*/
 
 
 .fh5co-nav a {
@@ -129,6 +138,7 @@ figure {
   color: #fff;
 }
 
+/*
 @media screen and (max-width: 768px) {
 
   .fh5co-nav .menu-1,
@@ -136,6 +146,7 @@ figure {
     display: none;
   }
 }
+
 
 .fh5co-nav ul {
   padding: 0;
@@ -262,6 +273,8 @@ figure {
 .fh5co-nav ul li.active>a {
   color: #fff !important;
 }
+
+*/
 
 #fh5co-counter,
 #eldia,
@@ -1588,6 +1601,7 @@ form label {
   outline: none;
 }
 
+/*
 .fh5co-nav-toggle {
   width: 25px;
   height: 25px;
@@ -1694,11 +1708,13 @@ form label {
   border-bottom: none !important;
 }
 
+
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
   }
 }
+*/
 
 .btn {
   margin-right: 4px;
